@@ -201,7 +201,10 @@ body {
     height: 75vh;
     text-align: center;
     color: $pure-white;
-    @include heroImages('../img/header-mini.jpg');
+    background-image: $blue-gradient, url('../img/header-mini.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-attachment: scroll;
 
     &__heading {
@@ -264,7 +267,11 @@ body {
 .hero-img {
     position: relative;
     padding: 10em 2em;
-    @include heroImages('../img/hero-mini.jpg');
+    background-image: $blue-gradient, url('../img/hero-mini.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: scroll;
     text-align: center;
     color: $pure-white;
     overflow: hidden;
@@ -400,7 +407,11 @@ body {
 // OFFERS
 .offers {
     position: relative;
-    @include heroImages('../img/offer-mini.jpg');
+    background-image: $blue-gradient, url('../img/offer-mini.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: scroll;
     overflow: hidden;
 
     .section-heading {
