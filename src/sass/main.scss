@@ -264,7 +264,7 @@ body {
 .hero-img {
     position: relative;
     padding: 10em 2em;
-    @include heroImages('dist/img/hero-mini.jpg');
+    @include heroImages('../img/hero-mini.jpg');
     text-align: center;
     color: $pure-white;
     overflow: hidden;
@@ -400,7 +400,7 @@ body {
 // OFFERS
 .offers {
     position: relative;
-    @include heroImages('/dist/img/offer-mini.jpg');
+    @include heroImages('../img/offer-mini.jpg');
     overflow: hidden;
 
     .section-heading {
@@ -838,7 +838,7 @@ body {
 
     .hero-img {
         padding: 40rem 2em;
-        background-image: $blue-gradient, url('/dist/img/hero-big.jpg');
+        background-image: $blue-gradient, url('../img/hero-big.jpg');
 
         &__title {
             font-size: 7.2rem;
