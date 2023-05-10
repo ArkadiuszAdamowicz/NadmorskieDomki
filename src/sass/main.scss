@@ -868,6 +868,7 @@ body {
     .offers {
         background-image: $blue-gradient, url('../img/offer-big.jpg');
         background-attachment: fixed;
+        
         &__option {
             &-img {
                 object-fit: cover;
