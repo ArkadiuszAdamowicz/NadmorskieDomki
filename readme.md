@@ -7,7 +7,7 @@
 2. Open index.html in your browser.
 
 ### Demo
-You can view a live demo of the website here: https://github.com/ArkadiuszAdamowicz/NadmorskieDomki
+You can view a live demo of the website here: https://arkadiuszadamowicz.github.io/NadmorskieDomki/
 
 
 ### Technologies Used
