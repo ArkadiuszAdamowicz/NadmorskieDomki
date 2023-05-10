@@ -72,6 +72,11 @@ body {
 	}
 }
 
+.home {
+    text-decoration: none;
+    color: $pure-white;
+}
+
 // NAV
 .burger-btn {
     position: fixed;
@@ -270,8 +275,8 @@ body {
     background-image: $blue-gradient, url('../img/hero-mini.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    background-attachment: scroll;
+    // background-attachment: fixed;
+    // background-attachment: scroll;
     text-align: center;
     color: $pure-white;
     overflow: hidden;
@@ -410,8 +415,8 @@ body {
     background-image: $blue-gradient, url('../img/offer-mini.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    background-attachment: scroll;
+    // background-attachment: fixed;
+    // background-attachment: scroll;
     overflow: hidden;
 
     .section-heading {
@@ -850,7 +855,7 @@ body {
     .hero-img {
         padding: 40rem 2em;
         background-image: $blue-gradient, url('../img/hero-big.jpg');
-
+        background-attachment: fixed;
         &__title {
             font-size: 7.2rem;
         }
@@ -863,7 +868,7 @@ body {
 
     .offers {
         background-image: $blue-gradient, url('/dist/img/offer-big.jpg');
-
+        background-attachment: fixed;
         &__option {
             &-img {
                 object-fit: cover;
